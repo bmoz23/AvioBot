@@ -7,7 +7,12 @@ Aviobot leverages LangChain technology for natural language processing (NLP) cap
 
 Aviobot uses OpenAI's TTS-1 Nova voice model as the speech synthesis engine, enabling natural and clear voice interactions. Leveraging LangChain technology for natural language processing (NLP), Aviobot understands and responds to pilot queries instantly, enhancing flight safety while reducing the workload on pilots. In addition, Aviobot employs Pinecone as the vector database, which facilitates efficient data storage and retrieval, ensuring that queries are processed quickly and accurately. This combination of technologies is specifically designed to enhance flight safety while reducing the workload on pilots.
 
-You can find the Jupyter Notebook files in notebooks folder. There are several notebooks in here. OpenAI.jpynb file includes the working with OpenAI models by using LangChain. Gemini.jpynb file includes Google Models for use, etc. You can check it from notebooks folder.
+You can find the Jupyter Notebook files in the `notebooks` folder. This folder contains several notebooks, each focused on different aspects of the project:
+
+- **`OpenAI.ipynb`**: Demonstrates how to work with OpenAI models using LangChain.
+- **`Gemini.ipynb`**: Explores the use of Google Models.
+
+Feel free to explore these notebooks in the `notebooks` folder to better understand the implementation details.
 
 ## Installation 
 
