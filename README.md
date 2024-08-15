@@ -18,7 +18,7 @@ First, clone the Aviobot repository from GitHub to your local machine. I recomma
 2. Choose "Get from Version Control"
 3. copy "https://github.com/bmoz23/AvioBot.git" and paste it.
 4. After these steps, you have to skip your clone folder.
-5. Open your terminal, run this command --> pip install -r requirements.txt
+5. Open your terminal, run this command --> **` pip install -r requirements.txt `**
 6. Therefore, all requirements of our project must be installed
 
 
