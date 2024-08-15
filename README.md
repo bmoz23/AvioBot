@@ -7,6 +7,8 @@ Aviobot leverages LangChain technology for natural language processing (NLP) cap
 
 Aviobot uses OpenAI's TTS-1 Nova voice model as the speech synthesis engine, enabling natural and clear voice interactions. Leveraging LangChain technology for natural language processing (NLP), Aviobot understands and responds to pilot queries instantly, enhancing flight safety while reducing the workload on pilots. In addition, Aviobot employs Pinecone as the vector database, which facilitates efficient data storage and retrieval, ensuring that queries are processed quickly and accurately. This combination of technologies is specifically designed to enhance flight safety while reducing the workload on pilots.
 
+You can find the Jupyter Notebook files in notebooks folder. There are several notebooks in here. OpenAI.jpynb file includes the working with OpenAI models by using LangChain. Gemini.jpynb file includes Google Models for use, etc. You can check it from notebooks folder.
+
 ## Installation 
 
 To get Aviobot up and running on your local machine, follow the steps below:
@@ -27,7 +29,21 @@ First, clone the Aviobot repository from GitHub to your local machine. I recomma
 2. Open your terminal.
 3. Run the following command **`streamlit run app.py`**
      
-   
-5.
+## Information
+
+Please make sure to replace the API keys in the **`req.env`** file with **your own API keys**. This step is essential for AvioBot to function correctly.
+
+**Steps to Update the `req.env` File:**
+
+1. Replace the `OPENAI_API_KEY` with your own OpenAI API key.
+2. Replace the `PINECONE_API_KEY` with your own Pinecone API key.
+
+Your file should look like this:
+
+```plaintext
+OPENAI_API_KEY="your-openai-api-key"
+PINECONE_API_KEY="your-pinecone-api-key"
+
+
     
 
