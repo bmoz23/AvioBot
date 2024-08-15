@@ -28,6 +28,7 @@ First, clone the Aviobot repository from GitHub to your local machine. I recomma
 1. Open your clone folder.
 2. Open your terminal.
 3. Run the following command **`streamlit run app.py`**
+4. If you want to run our chat model, you have to run the following command **`streamlit run chat.py`**
      
 ## Information
 
