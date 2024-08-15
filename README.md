@@ -10,7 +10,7 @@ Aviobot uses OpenAI's TTS-1 Nova voice model as the speech synthesis engine, ena
 You can find the Jupyter Notebook files in the `notebooks` folder. This folder contains several notebooks, each focused on different aspects of the project:
 
 - **`OpenAI.ipynb`**: Demonstrates how to work with OpenAI models using LangChain.
-- **`Gemini.ipynb`**: Explores the use of Google Models.
+- **`GoogleAI.ipynb`**: Explores the use of Google Models.
 
 Feel free to explore these notebooks in the `notebooks` folder to better understand the implementation details.
 
