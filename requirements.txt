@@ -12,3 +12,7 @@ requests
 numpy
 pandas
 streamlit
+SpeechRecognition
+PyAudio
+pyttsx3
+streamlit-chat
